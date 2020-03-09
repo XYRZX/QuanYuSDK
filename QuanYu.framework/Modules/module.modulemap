@@ -1,0 +1,6 @@
+framework module QuanYu {
+  umbrella header "QuanYu.h"
+
+  export *
+  module * { export * }
+}
