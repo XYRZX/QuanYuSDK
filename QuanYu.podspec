@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   #pod私有库名称
   s.name             = 'QuanYu'
   #pod私有库版本号
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   #pod私有库概要
   s.summary          = 'striver custom QuanYu'
   #主要，最好能访问
@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
 
   #依赖第三方库
   s.dependency "SocketRocket"
-  s.dependency "AFNetworking"
+  s.dependency "Reachability"
 end
